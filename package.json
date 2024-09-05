@@ -1,0 +1,22 @@
+{
+  "name": "invenflow-api",
+  "version": "1.0.0",
+  "description": "Inventory Management System",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "express",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "dannycahyo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.1",
+    "validator": "^13.12.0"
+  }
+}
