@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import cors from "cors";
 import authRoutes from "./src/routes/authRoutes.js";
 import productRoutes from "./src/routes/productRoutes.js";
 import { connectDB } from "./src/config/db.js";
@@ -13,10 +14,11 @@ const PORT = process.env.PORT || 5000;
 connectDB();
 
 // Middleware
+app.use(cors()); // Enable CORS
 app.use(express.json());
 
 // Routes
-app.get("/api", (_, res) => {
+app.get("/", (_, res) => {
   res.send("Welcome to the Inventory Management System API");
 });
 
