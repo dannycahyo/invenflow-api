@@ -88,39 +88,6 @@ Include the JWT token in the `Authorization` header as follows:
 
 ## API Endpoints
 
-### Authentication
-
-#### Register
-
-- **Method**: POST
-- **URL**: `/api/auth/register`
-- **Body**:
-  ```json
-  {
-    "name": "John Doe",
-    "email": "john@example.com",
-    "password": "password123"
-  }
-  ```
-
-#### Login
-
-- **Method**: POST
-- **URL**: `/api/auth/login`
-- **Body**:
-  ```json
-  {
-    "email": "john@example.com",
-    "password": "password123"
-  }
-  ```
-- **Response**:
-  ```json
-  {
-    "token": "your_jwt_token_here"
-  }
-  ```
-
 ### Products
 
 #### Retrieve All Products
