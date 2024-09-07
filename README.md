@@ -23,8 +23,8 @@ This project is an Inventory Management System built with Node.js, Express, Mong
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/inventory-management-system.git
-   cd inventory-management-system
+   git clone https://github.com/dannycahyo/invenflow-api.git
+   cd invenflow-api
    ```
 
 2. Install dependencies:
