@@ -10,7 +10,6 @@ This project is an Inventory Management System built with Node.js, Express, Mong
 - [API Endpoints](#api-endpoints)
   - [Authentication](#authentication)
   - [Products](#products)
-- [Environment Variables](#environment-variables)
 - [Tech Genius Bootcamp](#tech-genius-bootcamp)
 
 ## Features
@@ -177,18 +176,11 @@ Include the JWT token in the `Authorization` header as follows:
 - **Headers**:
   - `Authorization`: `Bearer your_jwt_token_here`
 
-## Environment Variables
-
-Create a `.env` file in the root directory and add the following environment variables:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-```
 
 ## Tech Genius Bootcamp
 
 This project is part of the Tech Genius Bootcamp Full Stack Web Development conducted by the Informatics students of the State University of Surabaya. The bootcamp aims to provide hands-on experience in building full-stack web applications using modern technologies.
+
+See the Frontend Project [here](https://github.com/dannycahyo/invenflow-ui).
 
 ![Tech Genius Bootcamp](./public/Tech_Genius_Bootcamp.PNG)
